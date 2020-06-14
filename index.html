@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>InfoSeg Bagé - Serviços de Informática e Manutenção Sistema Inteligente de Câmeras</title>
-        <link rel="icon" href="img/fav.png">
+        <link rel="icon" href="img/infoseg.png">
 
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,7 +18,18 @@
     <body>
 
         <header>
-            <nav>
+
+           <!--MENU MOBILE--> 
+           <ul class="sidenav" id="menu-mobile">
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre a InfoSeg Bagé</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Unidades</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+           
+            <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
                 <div class="nav-wrapper container">
                     <h1 class="logo_text">InfoSeg Bagé - Serviços de Informática e Sistema Inteligente de Câmeras </h1>
                     <a href=""><img class="logo_img" src="img/logo.png" alt="InfoSeg Bagé"></a>
@@ -29,8 +40,14 @@
                         <li><a href="">Unidades</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
+
+                    
+
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                
                 </div>
             </nav>
+            </div>
         </header>
 
 
@@ -43,8 +60,8 @@
                         for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
                         et Malorum" by Cicero are also reproduced in their exact original form, 
                         accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                    <div class="row botoes">
-                        <a class="btn btn-large blue"> Sobre nós </a>
+                    <div class="row">
+                        <a class="btn btn-large blue-color"> Sobre nós </a>
                         <a class="btn btn-large white black-text"> Contato </a>
                     </div>
                 </div>
@@ -54,8 +71,18 @@
 
         <!--  JQUERY -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
         <!--MATERIALIZE JS-->
-        <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <!--JS-->
+        <script>
+            $(document).ready(function(){
+                //MENU MOBILE
+                $(".sidenav").sidenav();
+            });
+        </script>
+
+    
     </body>
 </html>

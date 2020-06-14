@@ -5,12 +5,21 @@ html, body{
 
 .bloco {
     min-height: 100%;
+    padding-top: 94px;
 }
+
+/*COLORS*/
+.blue-logo{
+    background-color: #2dc7d0;
+}
+
+
+
 
 /*   HOME  */
 .home {
-    animation: mudarbg 20s infinite;
-    background-image: url('../img/background3.jpg');
+    /*animation: mudarbg 20s infinite;*/
+    background-image: url('../img/background5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,8 +42,19 @@ html, body{
 }
 .logo_img{
     width: 100px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
+
+/*MENU*/
+.navbar{
+    background-color: transparent;
+}
+.navbar ul a:hover{
+    background-color: transparent;
+    color: #2dc7d0;
+}
+
+/*NAV*/
 
 nav {
     color: #fff;
@@ -47,14 +67,37 @@ nav.nav-extended .nav-wrapper {
     min-height: 94px;
     height: auto;
 }
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
+  }
 
-/*HOME ANIMATION*/
-@keyframes mudarbg{
-    40%{background-image:url('../img/background2.jpg');}
-    80%{background-image:url('../img/background1.jpg');}
-    100%{background-image:url('../img/background3.jpg');}
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 94px;
+    line-height: 94px;
 }
 
+.sidenav{
+    background: url('../img/menu_mobile.png');
+}
+.sidenav li> a{
+    color: #fff;
+    font-weight: 100;
+}
+  
+
+/*HOME ANIMATION
+@keyframes mudarbg{
+    40%{background-image:url('../img/background5.jpg');}
+    80%{background-image:url('../img/background4.jpg');}
+    100%{background-image:url('../img/background1.jpg');}
+}
+*/
 /*MEDIA*/
 @media only screen and (max-width: 480px) {
 
