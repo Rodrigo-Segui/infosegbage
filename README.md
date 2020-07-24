@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="jogo-da-velha" title="#delicinha" width="500px" />
+    InfoSeg
 </h1>
 
 # jogo-da-velha
-Implementação do jogo da velha em Java
+Implementação do website da empresa infoSeg
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,17 +16,20 @@ Implementação do jogo da velha em Java
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [JAVA](https://docs.oracle.com/en/java/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [MATERIALIZE](https://materializecss.com/)
 
 ## 💻 Projeto
  
-O jogo-da-velha é um projeto onde é implementado a simulação de um jogo da velha
+O projeto consiste na implementação de um website da loja de informatica infoseg.
 ### Backend- FrontEnd
 
 
 ## Começando
 
- 1. Clone esse repositorio ```git clone https://github.com/Rodrigo-Segui/jogo-da-velha.git```
+ 1. Clone esse repositorio ```git clone https://github.com/Rodrigo-Segui/infoseg.git```
  2. Inicie  com projeto e compile.
   
  ## :memo: Licença
