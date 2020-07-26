@@ -2,8 +2,8 @@
     InfoSeg
 </h1>
 
-# jogo-da-velha
-Implementação do website da empresa infoSeg
+# INFOSEG
+Implementação do website da empresa de informática infoSeg
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,7 +29,7 @@ O projeto consiste na implementação de um website da loja de informatica infos
 
 ## Começando
 
- 1. Clone esse repositorio ```git clone https://github.com/Rodrigo-Segui/infoseg.git```
+ 1. Clone esse repositorio ```git clone https://github.com/Rodrigo-Segui/infosegbage.git```
  2. Inicie  com projeto e compile.
   
  ## :memo: Licença
