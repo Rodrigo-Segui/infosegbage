@@ -34,4 +34,4 @@ O projeto consiste na implementação de um website da loja de informatica infos
   
  ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Rodrigo-Segui/infosegbage/blob/master/LICENSE) para mais detalhes
