@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
  
 O projeto consiste na implementação de um website da loja de informatica infoseg.
-### Backend- FrontEnd
+
 
 
 ## Começando
